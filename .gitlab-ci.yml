@@ -7,8 +7,6 @@ stages:
   - deploy
 
 deploy to production:
-   tags: 
-    - shell_runner
    stage: deploy
    environment: production
    script:
