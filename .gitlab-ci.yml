@@ -13,5 +13,6 @@ deploy to production:
    environment: production
    script:
       - echo hello
+      - echo anotherhello
    only:
       - master
